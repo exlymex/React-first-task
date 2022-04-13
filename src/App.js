@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Photo from './XIX.jpg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+          <h1>Історія Львова</h1>
+          <img src = {Photo} />
+                  <p><b>Львів</b> - найбільше місто Західної України,що протягом багатовікової історії було,і є
+                      нині,науковим,культурним та національним центром України</p>
+                  <p><i><b>В найдавніші часи</b></i> - Столиця</p>
+                  <p>У <s>1920</s> 1918 році - столиця ЗУНР.</p>
+                  <p> У Другій світовій війні був окупований спочатку радянською владою,а потім німецькою арміями.</p>
+                  <p>У поствоєнний період відійшов до Радянського Союзу. <u>з 1991 року - адміністративний центр
+                      Львівської області Незалежної України</u></p>
+      </div>
   );
 }
 
